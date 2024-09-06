@@ -33,6 +33,7 @@
   flex-direction: column;
   position: relative;
   overflow: hidden; /* Evita el desbordamiento */
+  border-bottom: 1px solid #d31b61;
 }
 
 .background {
@@ -81,19 +82,27 @@
 .images {
   display: flex;
   justify-content: center;
-  margin-top: 3%;
+  flex-wrap: wrap;
+  width: 80%;
 }
 
 .img{
   height: 300px;
   margin: 2rem;
   cursor: pointer;
+  border-radius: 15px;
+  transition: height 0.3s ease;
+}
+
+
+.img:hover {
+  height: 320px; /* Agranda la imagen un poco */
 }
 
 .arrow {
   position: absolute;
   right: 3rem;
-  bottom: 2rem;
+  bottom: 4rem;
   height: 3rem;
   cursor: pointer;
 }
@@ -101,6 +110,13 @@
 .h1x {
   color: #d31b61;
   font-size: 3rem;
+}
+
+.h1xx {
+  color: #ffffff;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 200;
 }
 
 .p {

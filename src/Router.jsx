@@ -5,6 +5,7 @@ import Shows from "./components/Shows.jsx";
 import Navbar from "./components/Navbar.jsx"; // Importa el Navbar
 import Footer from "./components/Footer.jsx"; // Importa el Footer
 import ScrollToTop from "./components/ScrollToTop.jsx";  // Importa tu componente
+import About from "./components/About.jsx"
 
 
 const RouterConfig = () => {
@@ -17,6 +18,7 @@ const RouterConfig = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shows" element={<Shows />} />
+        <Route path="/about" element={<About />} />
       </Routes>
 
       {/* Footer se muestra en todas las rutas */}

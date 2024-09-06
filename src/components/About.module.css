@@ -1,0 +1,36 @@
+.about_container {
+    background-image: url("../assets/2.jpg");
+    background-size: cover; /* La imagen ocupará todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1 {
+    color: white;
+    font-size: 4rem;
+  }
+  
+  .nova {
+    color: #d31b61; /* Cambia este color según tu preferencia */
+  }
+
+.p {
+    color: white;
+    font-weight: 400;
+}
+
+.p_container{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.797);
+    border-radius: 15px;
+    padding: 5rem;
+}
+
+.pic {
+    height: 200px;
+}

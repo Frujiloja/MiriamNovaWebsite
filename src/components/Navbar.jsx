@@ -12,27 +12,39 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
       <nav className={styles.desktopnav}>
-        {/* <div>
-          <Link to="/">
-            <img src="/Logo full png.png" alt="logo" className={styles.logo} />
-          </Link>
-        </div> */}
         <div className={styles.menu}>
           <ul className={styles.menuitems}>
-          <li>
+            <li>
               <Link to="/">Inicio</Link>
             </li>
             <li>
               <Link to="/shows">Shows & Eventos</Link>
             </li>
-            <li>
-              <a href="#experience">Talleres</a>
+            <li className={styles.dropdown}>
+              <a >Talleres</a>
+              <ul className={styles.dropdownMenu}>
+                <li>
+                  <a className={styles.a1} href="/seminario">Seminario de Interpretacion de la Cancion</a>
+                </li>
+                <li>
+                  <a className={styles.a1} href="#workshop2">Curso de Canto Para Principiantes</a>
+                </li>
+                <li>
+                  <a className={styles.a1} href="#workshop3">Taller de Canto Presencial</a>
+                </li>
+                <li>
+                  <a className={styles.a1} href="#workshop3">Taller de Canto Online</a>
+                </li>
+                <li>
+                  <a className={styles.a1} href="#workshop3">Taller de Teatro Presencial</a>
+                </li>
+              </ul>
             </li>
             <li>
-              <a href="#projects">Agenda De Eventos</a>
+              <a href="/agenda">Agenda De Eventos</a>
             </li>
             <li>
-              <a href="#about">Acerca De Mi</a>
+              <a href="/about">Acerca De Mi</a>
             </li>
           </ul>
         </div>
@@ -69,9 +81,9 @@ const Navbar = () => {
             </li>
             <li>
               <Link to="/home" onClick={toggleMenu}>
-              {/* <a href="#about" onClick={toggleMenu}> */}
+                {/* <a href="#about" onClick={toggleMenu}> */}
                 Acerca De Mi
-              {/* </a> */}
+                {/* </a> */}
               </Link>
             </li>
           </ul>
