@@ -1,5 +1,5 @@
 .portada_shows {
-    background-image: url(1.jpg);
+    background-image: url("../assets/1.jpg");
     background-size: cover; /* La imagen ocupará todo el contenedor */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
