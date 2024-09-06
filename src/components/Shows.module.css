@@ -19,16 +19,23 @@
 .videos {
     margin-top: 3rem;
     display: flex;
-    justify-content: center;
-    background-color: green;
-    width: 70%;
-    gap: 2rem;
+    flex-wrap: wrap; /* Permite que los videos se envuelvan en múltiples filas */
+    justify-content: center; /* Centra los videos horizontalmente */
+    gap: 2rem; /* Espacio entre los videos */
+    width: 80%;
+    height: 100vh; /* Asegura que el contenedor ocupe todo el ancho disponible */
+}
+
+.videos iframe {
+    width: 100%; /* Asegura que los iframes se ajusten al ancho del contenedor */
+    max-width: 560px; /* Tamaño máximo del iframe */
+    /* height: auto; */
 }
 
 .videos_container {
     background-color: rgb(35, 35, 35);
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -36,4 +43,54 @@
     color: white;
     flex-direction: column;
 
+}
+.pics {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* width: 80%; */
+    margin-top: 3rem;
+}
+
+.pic {
+    height: 200px;
+    transition: height 0.3s ease; /* Añade una transición suave */
+}
+
+.pic:hover {
+    height: 220px; /* Agranda la imagen un poco */
+}
+
+
+.h4 {
+    text-align: center;
+    width: 60%;
+    margin-top: 5rem;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    background: none;
+    color: white;
+    border: #d31b61 0.15rem solid;
+    z-index: 1;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.btn:hover {
+    background-color: #3f3f3f;
+    transform: scale(1.05);
+}
+
+.pics_container{
+    display: flex;
+    gap: 1rem;
+    width: 60%;
+    flex-wrap: wrap;
 }

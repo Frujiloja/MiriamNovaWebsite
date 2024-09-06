@@ -4,11 +4,13 @@ import Home from "./components/Home"; // Asegúrate de tener el componente Home 
 import Shows from "./components/Shows.jsx";
 import Navbar from "./components/Navbar.jsx"; // Importa el Navbar
 import Footer from "./components/Footer.jsx"; // Importa el Footer
+import ScrollToTop from "./components/ScrollToTop.jsx";  // Importa tu componente
 
 
 const RouterConfig = () => {
   return (
     <Router>
+      <ScrollToTop />
       {/* Navbar se muestra en todas las rutas */}
       <Navbar />
       
