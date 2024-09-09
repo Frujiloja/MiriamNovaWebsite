@@ -22,6 +22,13 @@ const Shows = () => {
             Fotos
           </button>
         </div>
+        <h4 className={styles.h4}>
+              SOY MIRIAM NOVA Y DESDE HACE MÁS DE 30 AÑOS QUE ME DEDICO A CANTAR
+              EN CASAMIENTOS, CUMPLEAÑOS, Y TODO TIPO DE FIESTAS.<br></br>{" "}
+              <br></br>
+              ÁNIMO EVENTOS, ORGANIZO KARAOKES, SHOWS EN DIFERENTES IDIOMAS Y
+              ESTILOS MUSICALES. CONOCEME!
+            </h4>
         {showVideos ? (
           <div className={styles.videos}>
             <iframe
@@ -64,13 +71,6 @@ const Shows = () => {
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             ></iframe>
-            <h4 className={styles.h4}>
-              SOY MIRIAM NOVA Y DESDE HACE MÁS DE 30 AÑOS QUE ME DEDICO A CANTAR
-              EN CASAMIENTOS, CUMPLEAÑOS, Y TODO TIPO DE FIESTAS.<br></br>{" "}
-              <br></br>
-              ÁNIMO EVENTOS, ORGANIZO KARAOKES, SHOWS EN DIFERENTES IDIOMAS Y
-              ESTILOS MUSICALES. CONOCEME!
-            </h4>
           </div>
         ) : (
           <div className={styles.pics}>
@@ -91,13 +91,6 @@ const Shows = () => {
               <img src="14.jpg" alt="Foto 2" className={styles.pic} />
               <img src="15.jpg" alt="Foto 2" className={styles.pic} />
             </div>
-            <h4 className={styles.h4}>
-              SOY MIRIAM NOVA Y DESDE HACE MÁS DE 30 AÑOS QUE ME DEDICO A CANTAR
-              EN CASAMIENTOS, CUMPLEAÑOS, Y TODO TIPO DE FIESTAS.<br></br>{" "}
-              <br></br>
-              ÁNIMO EVENTOS, ORGANIZO KARAOKES, SHOWS EN DIFERENTES IDIOMAS Y
-              ESTILOS MUSICALES. CONOCEME!
-            </h4>
           </div>
         )}
       </div>

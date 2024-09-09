@@ -1,0 +1,76 @@
+.seminario_container {
+    background-color:rgb(26, 26, 26);
+    width: 100%;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portada_shows {
+    background-image: url("../assets/3.jpg");
+    background-size: cover; /* La imagen ocupará todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 100%; /* Se asegura de que la clase ocupe todo el ancho */
+    height: 80vh; /* Hace que la altura ocupe toda la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #d31b61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #d84f84;
+}
+
+.h1 {
+    color: white;
+    font-size: 5vw;
+    font-weight: 200;
+}
+
+h5 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 200;
+    width: 50%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.vid {
+    display: flex;
+    justify-content: center;
+}
+
+.text_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 70%;
+}
+
+.h4 {
+    color: rgb(132, 132, 132);
+    font-weight: 400;
+    text-align: center;
+}
+
+.pic_canto {
+    height: 70vh;
+}

@@ -23,7 +23,7 @@
     justify-content: center; /* Centra los videos horizontalmente */
     gap: 2rem; /* Espacio entre los videos */
     width: 80%;
-    height: 100vh; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    height: 80vh; /* Asegura que el contenedor ocupe todo el ancho disponible */
 }
 
 .videos iframe {
@@ -35,7 +35,7 @@
 .videos_container {
     background-color: rgb(16, 16, 16);
     width: 100%;
-    height: 130vh;
+    height: 120vh;
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -65,8 +65,7 @@
 
 .h4 {
     text-align: center;
-    width: 60%;
-    margin-top: 5rem;
+    width: 50%;
 }
 
 .btn {
