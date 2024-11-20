@@ -1,7 +1,7 @@
 .seminario_container {
     background-color:rgb(26, 26, 26);
     width: 100%;
-    height: 300vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,6 +41,13 @@
     font-weight: 200;
 }
 
+.h11 {
+    color: white;
+    font-size: 3vw;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
 h5 {
     color: white;
     font-size: 2rem;
@@ -73,4 +80,46 @@ h5 {
 
 .pic_canto {
     height: 70vh;
+}
+
+.tics {
+    background-color: #d31b61;
+    margin-top: 2rem;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.line_black {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin-top: 0.5rem;
+}
+
+.tic {
+    height: 50px;
+}
+
+.tic_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    gap: 0.5rem;
+}
+
+.h2 {
+    color: white;
+    font-weight: 300;
+    font-size: 1vw;
+}
+
+.tic_boxes {
+    width: 70%;
+    display: flex;
+    gap: 1rem;
 }

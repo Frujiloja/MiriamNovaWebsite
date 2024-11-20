@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Importa Link desde react-router-dom
 import styles from "../components/Navbar.module.css";
+import logo from "../assets/Logo png.png"
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,6 +14,10 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <nav className={styles.desktopnav}>
         <div className={styles.menu}>
+          <Link to="/">
+            <img src={logo} alt="logo miri" className={styles.logo_mir} />
+          
+          </Link>
           <ul className={styles.menuitems}>
             <li>
               <Link to="/">Inicio</Link>
